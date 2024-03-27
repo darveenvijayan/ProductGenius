@@ -10,7 +10,7 @@ CHATBOT_API = os.environ["chat_api"]
 
 left_co, cent_co,last_co = st.columns(3)
 with cent_co:
-    st.image("/content/AIA-Logo.png")
+    st.image("AIA-Logo.png")
 
 st.markdown("<h1 style='text-align: center;'>AIA Product Genius</h1>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: center; color: grey;'>AI chatbot capable of answering queries related to specific AIA products</h2>", unsafe_allow_html=True)
