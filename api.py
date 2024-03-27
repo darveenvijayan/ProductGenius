@@ -11,7 +11,7 @@ import os
 from openai import OpenAI
 client = OpenAI()
 
-all_documents = ['/content/ProductGenius/MyProductKnowledge/MyProductKnowledge/'+x for x in os.listdir('MyProductKnowledge')if x[-4:]=='.txt']
+all_documents = ['/content/ProductGenius/MyProductKnowledge/'+x for x in os.listdir('MyProductKnowledge')if x[-4:]=='.txt']
 loaders = []
 for document in all_documents:
     loaders.append(TextLoader(document))
