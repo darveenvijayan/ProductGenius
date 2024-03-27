@@ -1,4 +1,3 @@
-%%writefile ProductGenius.py
 import streamlit as st
 import tiktoken
 from datetime import datetime, timedelta
