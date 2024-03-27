@@ -5,8 +5,9 @@ from datetime import datetime, timedelta
 import json
 import requests
 import time
+import os
 
-CHATBOT_API = "https://7814-34-90-185-108.ngrok-free.app"
+CHATBOT_API = os.environ["chat_api"]
 
 left_co, cent_co,last_co = st.columns(3)
 with cent_co:
