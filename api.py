@@ -152,7 +152,7 @@ from pyngrok import ngrok
 # from fastapi.middleware.cors import CORSMiddleware
 import nest_asyncio
 ngrok_tunnel = ngrok.connect(8000)
-print('Public URL:', ngrok_tunnel.public_url)
+#print('Public URL:', ngrok_tunnel.public_url)
 os.environ["chat_api"]=ngrok_tunnel.public_url
 print(os.environ["chat_api"])
 nest_asyncio.apply()
