@@ -1,0 +1,438 @@
+ A-Plus Parent Care
+
+GENERAL DESCRIPTION
+(i) Distribution Channel
+- Agency (included)
+- Bancassurance (not included)
+- Direct Marketing (not included)
+- Worksite Marketing (not included)
+- Corporate Solutions (not included)
+
+(ii) Type of Plan
+- Basic (no)
+- Rider (yes)
+
+(iii) Target Launch Date
+- 1 April 2022
+
+(iv) Plan Code
+- Refer to PDF memo
+
+(v) Short Name
+- Refer to PDF memo
+
+(vi) Form Number
+- TBC
+
+(vii) FATCA in-scope
+- No
+
+(viii) New Product Classification
+- launch and file
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(B) PRODUCT DESCRIPTION
+
+This is an unit deducting rider (UDR) for A-Life Wealth Treasure, which offers death or Total and Permanent Disability (TPD) Benefit of the Policy Owner.
+
+In the event of death or TPD (up to Owner’s age 70) of the Policy Owner prior to the Insured attains the age of 25, 100% of the Rider Sum Assured will be used to purchase units and it will be placed into the Wealth Account.
+
+Once 100% of the Rider Sum Assured is paid, the rider will terminate.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(C) TARGET CUSTOMERS
+
+This rider is suitable for customer who is concerned about the financial burden upon the death or TPD of the policy owner.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(D) BENEFITS
+(i) Death Benefit
+• In the event of death of the Policy Owner, 100% of Rider Sum Assured will be used to purchase
+units and it will be placed into the Wealth Account.
+
+Death due to suicide
+- If the Policy Owner, whether sane or insane, commits suicide within 1 year from the Issue Date or Commencement Date, whichever is later, we shall refund Policy Charges deducted from the Issue Date or Commencement Date, whichever is later. Thereafter, this Rider shall terminate.
+
+(ii) Total and Permanent Disability (TPD) Benefit
+- In the event the Policy Owner suffers Total and Permanent Disability prior to the Insured attains the age of 25 or owner reaches the age of 70, whichever is earlier, the amount payable shall be the TPD sum assured. The benefit will be provided free of charge to an insured who is of standard risk at the time of application.
+- The sum assured payable for TPD is depending on the nature of the disability. The account value shall remain upon TPD claim and will be paid upon death or policy termination.
+ 
+- For TPD Type (TPD – Suited Occupation)
+  - Event age:
+    - From age 16 last birthday onwards
+  - Amount Payable:
+    - • 10% of the TPD sum assured in each of the first two policy anniversary immediately following the date of commencement of TPD; plus
+    - • Remaining 80% of the TPD sum assured in the third policy anniversary following the date of commencement of TPD,
+    - subject to proof of continuous TPD.
+
+- For TPD Type (TPD – Any Occupation)
+  - Event age:
+    - From age 16 last birthday onwards
+  - Amount Payable:
+    - • 100% of TPD sum assured immediately after claims approval date.
+
+- For TPD Type (Presumptive Disability)
+  - Event age:
+    - Any age
+  - Amount Payable:
+    - • 100% of TPD sum assured immediately after claims approval date, subject to juvenile lien rule.
+ -----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(iii) Vitality Wealth Booster (VWB) (AIA Vitality)
+- Vitality Wealth Booster is a Vitality Integrated benefit under A-Plus ParentCare that provides an additional amount to be credited into Wealth Account of A-Life Wealth Treasure every year if the Policy Owner is an AIA Vitality member.
+- An additional amount that equivalent to the VWB % of A-Plus ParentCare rider sum assured, based on the Policy Owner’s AIA Vitality Status every year until the Insured attains the age of 25. This amount will be allocated to the Wealth Account by purchasing units based on one hundred percent (100%) allocation rate.
+- The initial VWB percentage starts from 0%. For each subsequent year, your VWB percentage may increase or remain the same based on policy owner’s AIA Vitality Status as at forty-five (45) days before the rider Anniversary (NOTE: System wise, it is T-30).
+
+- If AIA Vitality Status is Platinum:
+    - Vitality Wealth Booster is +0.5% of Rider Sum Assured
+- If AIA Vitality Status is Gold:
+    - Vitality Wealth Booster is +0.25% of Rider Sum Assured
+- If AIA Vitality Status is Silver:
+    - Vitality Wealth Booster is +0.0% of Rider Sum Assured
+- If AIA Vitality Status is Bronze:
+    - Vitality Wealth Booster is +0.0% of Rider Sum Assured
+
+Rider Sum Assured basis for Vitality Wealth Booster
+- The Rider Sum Assured used shall equal to the initial Rider Sum Assured or current Rider Sum Assured, whichever is lower. This includes any reduction of Rider Sum Assured due to, including but not limited to claims and request to reduce Rider Sum Assured.
+
+TERMINATION
+- This benefit shall be terminated upon the occurrence of any of the following events:
+- (i) If the Owner ceases to be an AIA Vitality member; or
+- (ii) If the Basic Policy and/or A-Plus ParentCare rider becomes terminated, matured, lapsed or is surrendered.
+whichever occurs earlier.
+
+Note: All the VWB amount earned previously and credited into Wealth Account shall remain in the account even after this vitality integrated benefit has been ceased / terminated.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(iv) Maturity Benefit 
+- None.
+
+(E) ATTACHABLE PLAN
+- The unit deducting rider can be attached to A-Life Wealth Treasure.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(F) PREMIUM ALLOCATION
+- Not applicable
+
+(G) THE FUND
+- Not applicable.
+ -----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+Currency: Ringgit Malaysia
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(i) Premium Payment Term / Cost of Insurance Term
+
+Premium Payment Term
+- N/A
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(ii) Cost of Insurance Term
+- The cost of insurance of the rider will be deducted throughout the coverage term.
+- Coverage and Cost of insurance of this rider will take effect starting from the Issue date of the policy.
+ -----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(iii) Single/Regular Premium
+- Not applicable
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(iv) Premium Payment Mode and Modal Factor
+- Not applicable
+
+(v) Premium Payment Method
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(vi) COI Rate Guarantee
+- The COI rate is non-guaranteed.No
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(vii) COI Rate Structure :
+• Different rates for male and female;
+• Different rates for smoker and non-smoker.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(ix) Renewability
+- Guaranteed
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(x) Premium Refund
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+Premium Holiday
+
+- Premium Holiday with Basic Policy and Rider(s)
+- If the basic premium is not received at the expiration of the late payment period (refer to user requirement), the basic policy will automatically continue, provided that the account value in the Protection Account, Savings Account and Wealth Account (if any) is sufficient to cover all policy charges including the cost of insurance of the riders attached to the basic policy. In the event that any remaining balance of the account value in the Protection Account, Savings Account and Wealth Account (if any) is insufficient to cover the relevant policy charges, the remaining account value will be utilized completely for the final month coverage, and the insufficient amount will be considered as an outstanding debt under the policy.
+- Any payment of basic premium within the premium holiday will be subject to the premium allocation. The applicable premium allocation will be determined retrospectively to the applicable policy year as determined by the Company which in any way shall not be earlier than when the regular premium was last paid.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(xii) COI Table
+- Please refer to PDF Memo.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(K) UNDERWRITING
+
+i. Entry Age (Last Birthday)
+
+Policy owner:
+- Min age : 18 years old
+- Max age: No limit
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+Sum Assured
+
+Minimum: RM10,000
+
+Maximum: Subject to underwriting
+
+Sum Assured must be in multiples of RM10,000 (this multiple shall not be applicable to POS).
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(iii) Coverage Term
+
+The coverage term for this rider will cover until the Insured attains the age of 25.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+Underwriting Requirement
+
+Full underwriting will be adopted.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+Medical Loading
+
+May be imposed for sub-standard life.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(vi) Occupational Loading
+
+May be imposed for hazardous occupation.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(vii) Waiting Period
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(viii) Survival Period
+- No survival period.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(ix) Risk Backdating
+- Follow basic plan.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+Advantage Programme
+- Yes
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(x) Keyman Insurance
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+POLICY OWNER SERVICE
+
+(i) Non Forfeiture Option
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(iii) Add / Deletion of Rider:
+
+Addition of Rider
+- Addition of this rider is allowed, subject to underwriting and will be effective on the next monthly anniversary date.
+
+Deletion of Rider
+- Deletion of rider is allowed at any time before the expiry date and will be effective on the next monthly anniversary date.
+ -----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(iii) Change of Premium
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+Change of Sum Assured
+
+Increase in Sum Assured
+- Increase in sum assured of this rider is allowed, subject to underwriting and will be effective on the next monthly anniversary date.
+
+Reduction in Sum Assured
+- Reduction in sum assured of this rider is allowed at any time before the expiry date and will be effective on the next monthly anniversary date.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+Partial Withdrawal
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(xiii) Surrender Benefit
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(vix) Top-up
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(xv) Switching
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(xvi) Policy Loan
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(xvii) Assignment
+- Follow basic plan.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(xviii) Reinstatement
+- Allowed
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(M) FEES AND CHARGES
+
+(i) Monthly Service Charge
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+Monthly Cost of Insurance
+- The monthly cost of insurance will be charged by deducting sufficient number of units at the bid price every month on the monthly anniversary date.
+- The COI rate is non-guaranteed.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(iii) Fund Switching Fee
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+Top-up Charge
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+Fund Management Charge
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+Surrender Charge
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+Policy Fee
+- Not applicable.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(i) Free-look Period
+- Follow basic plan.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(ii) Grace Period
+- Follow basic plan.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(iii) Late Payment Period
+- Follow basic plan.
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(M) COMMISSION STRUCTURE
+Not applicable
+-----SPLIT-----
+
+Product Name: A-Plus Parent Care
+
+(N) COST OF INSURANCE RATES
+To be provided by Actuarial.
