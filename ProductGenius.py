@@ -52,37 +52,51 @@ if prompt := st.chat_input("Ask me about AIA products"):
     response = get_with_json_body(url=CHATBOT_API+'/product_genius/', json_data=json_data)
 
     # Check for successful response
-    if response.status_code == 200:
+    if response.status_code != 200:
+        print(f"Error: {response.status_code}")
+        st.markdown("ERROR")
+    else:
         # Process the response data
         data = response.json()
+        answer = data['Answer']
         print(data)
-    else:
-        print(f"Error: {response.status_code}")
-
-    answer = data['Answer']
-
-    ####################################################################################
 
 
+        ####################################################################################
 
-    print(len(st.session_state.messages))
-    #print(st.session_state.messages)
 
-    # write user text
-    with st.chat_message("user"):
-        st.markdown(prompt)
+        print(len(st.session_state.messages))
+        #print(st.session_state.messages)
 
-    with st.chat_message("assistant"):
-        message_placeholder = st.empty()
-        full_response = ""
+        # write user text
+        with st.chat_message("user"):
+            st.markdown(prompt)
 
-        # Simulate stream of response with milliseconds delay
-        for chunk in answer.split():
-            full_response += chunk + " "
-            time.sleep(0.05)
-            # Add a blinking cursor to simulate typing
-            message_placeholder.markdown(full_response + "▌")
-        message_placeholder.markdown(full_response)
+        with st.chat_message("assistant"):
+            message_placeholder = st.empty()
+            full_response = ""
+
+            # Simulate stream of response with milliseconds delay
+            for chunk in answer.split():
+                full_response += chunk + " "
+                time.sleep(0.05)
+                # Add a blinking cursor to simulate typing
+                message_placeholder.markdown(full_response + "▌")
+            message_placeholder.markdown(full_response)
+
+            # Calculate the number of input tokens
+            encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
+            input_token_count = len(encoding.encode(str(st.session_state.messages)))
+            input_token_cost = (0.0005/1000)*input_token_count
+
+            # Calculate the number of completions tokens
+            completion_token_count = len(encoding.encode(str({"role": "assistant", "content": full_response})))
+            completion_token_cost = (0.0015/1000)*completion_token_count
+            tot_cost = input_token_cost*4.63 + completion_token_cost*4.63
+            message_placeholder.markdown(full_response)#+f"\n\n[ OpenAI Cost: RM{tot_cost} ]")
+            # message_placeholder.markdown(full_response)+f"\n\n[ OpenAI Cost: RM{tot_cost} ]")
+
+
 
         # Calculate the number of input tokens
         encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
@@ -92,28 +106,14 @@ if prompt := st.chat_input("Ask me about AIA products"):
         # Calculate the number of completions tokens
         completion_token_count = len(encoding.encode(str({"role": "assistant", "content": full_response})))
         completion_token_cost = (0.0015/1000)*completion_token_count
-        tot_cost = input_token_cost*4.63 + completion_token_cost*4.63
-        message_placeholder.markdown(full_response)#+f"\n\n[ OpenAI Cost: RM{tot_cost} ]")
-        # message_placeholder.markdown(full_response)+f"\n\n[ OpenAI Cost: RM{tot_cost} ]")
 
+        print('Question:',prompt)
+        print('Answer:',full_response)
+        print(f"Input tokens: {input_token_count} | Cost: RM{input_token_cost*4.63}")
+        print(f"Completion tokens: {completion_token_count} | Cost: RM{completion_token_cost*4.63}")
+        print(f"Total Cost: RM{input_token_cost*4.63 + completion_token_cost*4.63}")
+        print("======")
 
-
-    # Calculate the number of input tokens
-    encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
-    input_token_count = len(encoding.encode(str(st.session_state.messages)))
-    input_token_cost = (0.0005/1000)*input_token_count
-
-    # Calculate the number of completions tokens
-    completion_token_count = len(encoding.encode(str({"role": "assistant", "content": full_response})))
-    completion_token_cost = (0.0015/1000)*completion_token_count
-
-    print('Question:',prompt)
-    print('Answer:',full_response)
-    print(f"Input tokens: {input_token_count} | Cost: RM{input_token_cost*4.63}")
-    print(f"Completion tokens: {completion_token_count} | Cost: RM{completion_token_cost*4.63}")
-    print(f"Total Cost: RM{input_token_cost*4.63 + completion_token_cost*4.63}")
-    print("======")
-
-    st.session_state.messages = data['memory']
-    #print(st.session_state.messages)
+        st.session_state.messages = data['memory']
+        #print(st.session_state.messages)
 
