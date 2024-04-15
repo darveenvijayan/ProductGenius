@@ -1,4 +1,13 @@
+Q: Change the language to malay
+Q: Tukar Bahasa
+Q: Tukar Bahasa kepada Bahasa Malaysia
+Q: Change the language to Chinese
+Q: Chinese language
+Q: Change the language to Mandarin
+Q: Mandarin language
 
+Sorry, we are unable to change the language to your prefered language. The only language supported is English.
+-----SPLIT-----
 Q: is aia or prudential better
 Q: Which is the best insurance company
 Q: is aia or Great Eastern better
