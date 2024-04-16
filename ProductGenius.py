@@ -16,15 +16,33 @@ st.markdown("<h1 style='text-align: center;'>AIA Product Genius</h1>", unsafe_al
 st.markdown("<h5 style='text-align: center; color: grey;'>AI chatbot capable of answering queries related to specific AIA products</h2>", unsafe_allow_html=True)
 st.divider()
 
-def get_with_json_body(url, json_data):
-    # Encode the JSON data as a string
-    encoded_data = json.dumps(json_data)
-    # Set the headers to specify JSON content type
-    headers = {"Content-Type": "application/json"}
-    # Send the GET request with the JSON data in the body
+def get_with_json_body(url, json_data, proxy=None):
+  """
+  Sends a GET request with JSON data in the body, optionally using a proxy.
+  Args:
+      url (str): The URL to send the request to.
+      json_data (dict): The data to be sent as JSON in the request body.
+      proxy (dict, optional): A dictionary containing proxy information.
+          Keys can be "http", "https", or "ftp" depending on the protocol.
+          Values should be formatted as "protocol://username:password@host:port".
+  Returns:
+      requests.Response: The response object containing the response data.
+  """
+
+  # Encode the JSON data as a string
+  encoded_data = json.dumps(json_data)
+
+  # Set the headers to specify JSON content type
+  headers = {"Content-Type": "application/json"}
+
+  # Use proxy if provided
+  if proxy:
+    response = requests.get(url, headers=headers, data=encoded_data, proxies=proxy)
+  else:
     response = requests.get(url, headers=headers, data=encoded_data)
-    # Return the response object
-    return response
+
+  # Return the response object
+  return response
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
