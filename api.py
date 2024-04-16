@@ -79,13 +79,23 @@ pre_question="User Question: "
 additional_info=""""""
 task=None
 
-def create_prompt(persona, main_guardrail, guardrail, answer_limit, knowledge, additional_info, pre_question, query, memory):
+def create_prompt_deprecated(persona, main_guardrail, guardrail, answer_limit, knowledge, additional_info, pre_question, query, memory):
     system_prompt = f"""{persona} {main_guardrail} {guardrail} {answer_limit}"""
     user_prompt = f"""
         KNOWLEDGEBASE:{knowledge}
         {additional_info}
         {pre_question} {query}
         """
+    memory.insert(0, {"role": "system", "content":system_prompt})
+    memory.append({"role": "user", "content": user_prompt})
+    return memory
+
+def create_prompt(persona, main_guardrail, guardrail, answer_limit, knowledge, additional_info, pre_question, query, memory):
+
+    system_prompt = f"""{persona} KNOWLEDGEBASE:{knowledge} {additional_info} 
+                        {main_guardrail} {guardrail} {answer_limit}"""
+
+    user_prompt = f"""{pre_question} {query}"""
     memory.insert(0, {"role": "system", "content":system_prompt})
     memory.append({"role": "user", "content": user_prompt})
     return memory
