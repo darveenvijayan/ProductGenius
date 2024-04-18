@@ -109,7 +109,7 @@ def TextGenEngine(prompt):
     return api_response.choices[0].message.content, prompt, api_response.dict()
 
 def ProductGenius(query,memory):
-    mm = memory[-4:]
+    mm = memory[-8:]
     past_questions = [x['content'] for x in memory if x['role']=='user']
     search_query = " ".join(past_questions[-2:])
     search_query = search_query+' '+query
