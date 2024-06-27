@@ -102,7 +102,7 @@ client = OpenAI()
 def TextGenEngine(prompt):
     api_response = client.chat.completions.create(
     model="gpt-3.5-turbo",
-    temperature = 0.7,
+    # temperature = 0.7,
     messages=prompt
     )
     return api_response.choices[0].message.content, prompt, api_response.dict()
