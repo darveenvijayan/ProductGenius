@@ -94,7 +94,7 @@ def fix_question(question):
     """
     messages=[
         {
-            "role": "user",
+            "role": "system",
             "content": final_prompt,
         }
     ]
