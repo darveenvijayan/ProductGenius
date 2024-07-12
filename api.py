@@ -134,8 +134,8 @@ def ProductGenius(query,memory):
     past_answer = [x['content'] for x in memory if x['role']=='assistant']
 
     # concat last 4 questions and 1 answer
-    search_query = " ".join(past_questions[-2:])
-    search_query = search_query+" ".join(past_answer[-1:])
+    search_query = " ".join(past_questions[-3:])
+    # search_query = search_query+" ".join(past_answer[-1:])
     search_query = search_query+' '+query
     
     knowledge = get_knowledge(search_query)
