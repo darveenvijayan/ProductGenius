@@ -90,12 +90,7 @@ def create_prompt(persona, main_guardrail, guardrail, answer_limit, knowledge, a
 
 def fix_question(question):
     final_prompt = """
-    Original Question: What’s the weather out? Rephrased: Could you tell me the current weather conditions?
-    Original Question: How’s the stock market doing? Rephrased: Can you provide an update on today’s stock market performance?
-    Original Question: When’s the next game? Rephrased: Could you inform me about the schedule for the upcoming game?
-    
-    Please rephrase the following question to make it clearer
-    Original Question: {question} Rephrased:
+    Original Question: {question}. Rephrased:
     """
     messages=[
         {
