@@ -88,6 +88,27 @@ def create_prompt(persona, main_guardrail, guardrail, answer_limit, knowledge, a
     memory.append({"role": "user", "content": user_prompt})
     return memory
 
+def fix_question(question):
+    instruction = """
+    You are an honest insurance agent. Your task is to understand the question of your customer clearly and pass the information to the system admin. Be as clear as possible. Use active statements.
+    """
+    prompt = f"""
+    Customer Question: {question}
+    """
+    final_prompt = instruction+prompt
+
+    messages=[
+        {
+            "role": "system",
+            "content": final_prompt,
+        }
+    ]
+    response,_,_ = TextGenEngine(messages)
+    return response
+
+
+
+
 def create_prompt_deprecated(persona, main_guardrail, guardrail, answer_limit, knowledge, additional_info, pre_question, query, memory):
 
     system_prompt = f"""{persona} KNOWLEDGEBASE:{knowledge} {additional_info} 
@@ -108,6 +129,9 @@ def TextGenEngine(prompt):
     return api_response.choices[0].message.content, prompt, api_response.dict()
 
 def ProductGenius(query,memory):
+    
+    query = fix_question(query)
+    print(query
 
     mm = memory[-10:]
 
@@ -126,7 +150,6 @@ def ProductGenius(query,memory):
     input_token_count = len(encoding.encode(str(final_prompt)))
 
     answer, prompt, api_response = TextGenEngine(prompt=final_prompt)
-    print(final_prompt)
 
     memory.append({"role": "user", "content": query})
     memory.append({"role": "assistant", "content": answer})
