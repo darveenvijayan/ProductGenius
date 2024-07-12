@@ -90,11 +90,11 @@ def create_prompt(persona, main_guardrail, guardrail, answer_limit, knowledge, a
 
 def fix_question(question):
     final_prompt = """
-    Original Question: {question}. Rephrased:
+    Rephrase the following: {question}
     """
     messages=[
         {
-            "role": "system",
+            "role": "user",
             "content": final_prompt,
         }
     ]
