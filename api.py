@@ -89,17 +89,14 @@ def create_prompt(persona, main_guardrail, guardrail, answer_limit, knowledge, a
     return memory
 
 def fix_question(question):
-    kb = retriever.vectorstore.similarity_search(question, k=10)
-    final_kb = "".join([x.page_content for x in kb])
-   
-    instruction = """
-    KNOWLEDGEBASE: {final_kb}
-    Task: Rephrase the Customer Question accurately.
-    """
-    prompt = f"""
-    Customer Question: {question}
-    """
-    final_prompt = instruction+prompt
+   """
+    Original Question: What’s the weather out? Rephrased: Could you tell me the current weather conditions?
+    Original Question: How’s the stock market doing? Rephrased: Can you provide an update on today’s stock market performance?
+    Original Question: When’s the next game? Rephrased: Could you inform me about the schedule for the upcoming game?
+    
+    Please rephrase the following question to make it clearer
+    Original Question: {question} Rephrased:
+   """
 
     messages=[
         {
