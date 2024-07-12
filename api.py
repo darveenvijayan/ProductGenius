@@ -126,6 +126,7 @@ def ProductGenius(query,memory):
     input_token_count = len(encoding.encode(str(final_prompt)))
 
     answer, prompt, api_response = TextGenEngine(prompt=final_prompt)
+    print(final_prompt)
 
     memory.append({"role": "user", "content": query})
     memory.append({"role": "assistant", "content": answer})
