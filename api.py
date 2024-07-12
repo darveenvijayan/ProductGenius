@@ -94,7 +94,7 @@ def fix_question(question):
    
     instruction = """
     KNOWLEDGEBASE: {final_kb}
-    You are an honest insurance agent. Based on the KNOWLEDGEBASE,Your task is to figure out the intention of your customer and pass to the system admin as the perspective of a customer.
+    Task: Rephrase the Customer Question accurately.
     """
     prompt = f"""
     Customer Question: {question}
