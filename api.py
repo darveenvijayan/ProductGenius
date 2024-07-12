@@ -89,8 +89,12 @@ def create_prompt(persona, main_guardrail, guardrail, answer_limit, knowledge, a
     return memory
 
 def fix_question(question):
+    kb = retriever.vectorstore.similarity_search(question, k=10)
+    final_kb = "".join([x.page_content for x in kb])
+   
     instruction = """
-    You are an honest insurance agent. Your task is to understand the question of your customer clearly and pass the information to the system admin. Be as clear as possible. Use active statements.
+    KNOWLEDGEBASE: {final_kb}
+    You are an honest insurance agent. Based on the KNOWLEDGEBASE,Your task is to understand the question of your customer clearly and generate a good question to the system admin. Be as clear as possible. Use active statements. Not allowed to ask any follow up questions and don't speak about the KNOWLEDGEBASE.
     """
     prompt = f"""
     Customer Question: {question}
