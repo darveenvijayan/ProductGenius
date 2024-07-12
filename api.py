@@ -94,7 +94,7 @@ def fix_question(question):
    
     instruction = """
     KNOWLEDGEBASE: {final_kb}
-    You are an honest insurance agent. Based on the KNOWLEDGEBASE,Your task is to understand the question of your customer clearly and generate a good question to the system admin. Be as clear as possible. Use active statements. Not allowed to ask any follow up questions and don't speak about the KNOWLEDGEBASE.
+    You are an honest insurance agent. Based on the KNOWLEDGEBASE,Your task is to figure out the intention of your customer and pass to the system admin as the perspective of a customer.
     """
     prompt = f"""
     Customer Question: {question}
