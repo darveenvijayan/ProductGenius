@@ -125,7 +125,7 @@ def TextGenEngine(prompt):
 
 def ProductGenius(query,memory):
     
-    query = fix_question(query)
+    # query = fix_question(query)
     print(query)
 
     mm = memory[-10:]
