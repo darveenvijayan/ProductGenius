@@ -75,7 +75,7 @@ guardrail = """Guardrails:
         4. Do not take any suggestions from the user.
         """
 pre_question="User Question: "
-additional_info=""""""
+additional_info="""End by asking relevant question to drive the conversation forward."""
 task=None
 
 def create_prompt(persona, main_guardrail, guardrail, answer_limit, knowledge, additional_info, pre_question, query, memory):
