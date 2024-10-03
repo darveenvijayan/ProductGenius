@@ -19,3 +19,6 @@ Check out my medium post: ![Static Badge](https://img.shields.io/badge/Medium-LL
 
 
 [![Medium - LLMs: A Calculator for Words](https://img.shields.io/badge/Medium-LLMs%3A%20A%20Calculator%20for%20Words-blue?style=for-the-badge)](https://medium.com/the-modern-scientist/large-language-models-a-calculator-for-words-7ab4099d0cc9)
+
+
+[![Static Badge](https://img.shields.io/badge/LinkedIn-Darveen_Vijayan-blue?link=https://www.linkedin.com/in/darveenvijayan)](https://www.linkedin.com/in/darveenvijayan)
