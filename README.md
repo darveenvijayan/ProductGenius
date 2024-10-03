@@ -12,3 +12,5 @@ Check out my medium post: [[LLMs: A Calculator for Words](https://medium.com/the
 
 Check out my medium post: ![Static Badge](https://img.shields.io/badge/Medium-LLMs%3A%20A%20Calculator%20for%20Words-blue?link=https%3A%2F%2Fmedium.com%2Fthe-modern-scientist%2Flarge-language-models-a-calculator-for-words-7ab4099d0cc9)
 
+![Documentation](https://img.shields.io/badge/Medium-LLMs%3A%20A%20Calculator%20for%20Words-blue?link=https://medium.com/the-modern-scientist/large-language-models-a-calculator-for-words-7ab4099d0cc9)
+
